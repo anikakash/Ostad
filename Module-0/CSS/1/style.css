@@ -1,0 +1,14 @@
+body{
+    /* background-color: aqua; */
+    background-image: url("bg.PNG");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Border Properties */
+h3{
+    border-style: outset;
+}

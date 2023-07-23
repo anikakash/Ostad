@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const person={
+            firstname : "Anik Dash",
+            lastname : "Akash",
+            age  : "23",
+            isEmployed: false,
+            address: {
+                city : "Habiganj",
+                Division : "Sylhet"
+            },
+            skill : ["Problem Solving", "Research", "Full STack"],
+            work: function(){
+                console.log(this.firstname+" is workig.");
+            },
+            fullName : function(){
+                return this.firstname + " " + this.lastname;
+            }
+        };
+
+    
+
+        for (const key in person) {
+            // Check if the property is an object or an array to handle nested structures
+            if (typeof person[key] === "object") {
+                console.log(`${key}:`);
+                for (const nestedKey in person[key]) {
+                    console.log(`  ${nestedKey}: ${person[key][nestedKey]}`);
+                }
+            } else {
+                console.log(`${key}: ${person[key]}`);
+            }
+        }
+        console.log([person["firstname"]]);
+        person.work();
+        
+    </script>
+</body>
+</html>
