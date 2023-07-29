@@ -3,4 +3,4 @@
  let evenNums = nums.filter(function (num) {
         return num % 2 == 0;
     });
-    console.log(evenNums);
+console.log(evenNums);

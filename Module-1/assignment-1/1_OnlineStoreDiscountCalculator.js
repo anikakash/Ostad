@@ -14,4 +14,4 @@ function discountCalculator(purchase_amount){
 
 let discount = discountCalculator(200);
 console.log("Your discount ammount is: " + discount +"$");
-console.log("Your total payment is: " + (purchase_amount - discount) + "$");
+console.log("Your total payment is: " + (200 - discount) + "$");

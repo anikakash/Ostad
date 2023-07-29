@@ -1,0 +1,15 @@
+{
+  "name": "jspractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "array_concat.js",
+  "scripts": {
+    "start-dev": "nodemon string.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
