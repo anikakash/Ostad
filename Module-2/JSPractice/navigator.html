@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open New Tab</title>
+</head>
+<body>
+    <button onclick="inCrement()">Click</button>
+    <p id = "show">Count: 0</p>
+    <script>
+        var val = 0;
+
+       function inCrement(){
+              val++;
+                document.getElementById("show").innerHTML = "Count: " + val;
+       }
+
+    </script>
+</body>
+</html>
