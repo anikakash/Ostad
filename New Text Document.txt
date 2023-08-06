@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Show Alert on Hover</title>
+
+</head>
+<body>
+
+    <button id="toggle-button" onclick="eventListener()">Toggle Visibility</button>
+    <div id="target-element">This is the element to be toggled</div>
+
+
+<script>
+    var element = document.getElementById("target-element");
+    var display = element.style.display;
+    function eventListener(){
+        if (display === "block" || display === "") {
+            element.style.display = "none";
+        }
+        else if (display === "none") {
+            element.style.display = "block";
+        }
+    }
+    </script>
+
+</body>
+</html>
+
