@@ -1,0 +1,22 @@
+.project {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0074d9;
+}

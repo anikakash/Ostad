@@ -1,0 +1,28 @@
+.contact {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}

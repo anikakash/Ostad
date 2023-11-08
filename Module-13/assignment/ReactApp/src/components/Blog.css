@@ -1,0 +1,28 @@
+.blog {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.blog-content {
+  margin: 20px 0;
+  white-space: pre-line;
+}

@@ -1,0 +1,25 @@
+.service {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .service-card {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+  }
+  
