@@ -12,5 +12,6 @@ function main (s) {
     console.log(mx);
 }
 
+
 let val = "abcabcbb";
 main(val);
