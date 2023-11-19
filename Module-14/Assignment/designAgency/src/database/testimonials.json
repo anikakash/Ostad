@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Alice Bradley",
+    "designation": "CEO",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id feugiat libero. something contaour",
+    "imgSrc": "../../../images/portrait_1.jpg"
+  },
+  {
+    "name": "Jane Smith",
+    "designation": "Marketing Manager",
+    "review": "Nulla facilisi. Sed non lectus in justo efficitur ultrices. Proin tempor velit vitae lorem consequat, eget volutpat velit accumsan.",
+    "imgSrc": "../../../images/portrait_2.jpg"
+  },
+  {
+    "name": "David Johnson",
+    "designation": "Senior Developer",
+    "review": "Praesent ullamcorper, odio at consectetur dictum, sem augue aliquam dui, et egestas neque est vitae nulla.",
+    "imgSrc": "../../../images/portrait_3.jpg"
+  },
+  {
+    "name": "Emily Brown",
+    "designation": "HR Manager",
+    "review": "Fusce sit amet ligula eget ipsum ullamcorper placerat id non magna. Etiam posuere arcu sed libero faucibus ultricies.",
+    "imgSrc": "../../../images/portrait_4.jpg"
+  },
+  {
+    "name": "Michael Wilson",
+    "designation": "Sales Executive",
+    "review": "Mauris tincidunt eros id massa suscipit, vitae gravida leo dapibus. Integer nec fringilla elit. elsemena contaour",
+    "imgSrc": "../../../images/portrait_5.jpg"
+  },
+  {
+    "name": "Sophia Garcia",
+    "designation": "Operations Manager",
+    "review": "Curabitur in enim et justo eleifend fermentum. Donec nec velit vitae justo rutrum ullamcorper.",
+    "imgSrc": "../../../images/portrait_6.jpg"
+  }
+]

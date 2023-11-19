@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Lorem ipsum dolor sit consectutar",
+    "imgSrc": "../../../images/project_1.jpg"
+  },
+  {
+    "title": "Lorem ipsum dolor sit consectutar",
+    "imgSrc": "../../images/project_2.jpg"
+  },
+  {
+    "title": "Lorem ipsum dolor sit consectutar",
+    "imgSrc": "../../images/project_3.jpg"
+  },
+  {
+    "title": "Lorem ipsum dolor sit consectutar",
+    "imgSrc": "../../images/project_4.jpg"
+  },
+  {
+    "title": "Lorem ipsum dolor sit consectutar",
+    "imgSrc": "../../images/project_5.jpg"
+  },
+  {
+    "title": "Lorem ipsum dolor sit consectutar",
+    "imgSrc": "../../images/project_6.jpg"
+  }
+]
