@@ -1,7 +1,7 @@
 [
   {
     "name": "Devon Lane",
-    "imgSrc": "../../../images/team_1.jpg",
+    "imgSrc": "/team/team_1.jpg",
     "socials": {
       "facebook": "https://www.facebook.com",
       "twitter": "https://www.twitter.com",
@@ -10,7 +10,7 @@
   },
   {
     "name": "Danny Bailey",
-    "imgSrc": "../../../images/team_2.jpg",
+    "imgSrc": "/team/team_2.jpg",
     "socials": {
       "facebook": "https://www.facebook.com",
       "twitter": "https://www.twitter.com",
@@ -19,7 +19,7 @@
   },
   {
     "name": "Alex Lov",
-    "imgSrc": "../../../images/team_3.jpg",
+    "imgSrc": "/team/team_3.jpg",
     "socials": {
       "facebook": "https://www.facebook.com",
       "twitter": "https://www.twitter.com",

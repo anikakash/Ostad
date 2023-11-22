@@ -3,7 +3,7 @@
     "title": "Build & Launch Without Problems",
     "subtitle": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
     "images": [
-      "../../../images/service_1.jpg",
+      "/service/service_1.jpg",
       "../../../images/service_2.jpg",
       "../../../images/service_3.jpg",
       "../../../images/service_4.jpg"
@@ -13,7 +13,7 @@
     "title": "Build & Launch Without Problems",
     "subtitle": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
     "images": [
-      "../../../images/service_2.jpg",
+      "/service/service_2.jpg",
       "../../../images/service_6.jpg",
       "../../../images/service_7.jpg",
       "../../../images/service_8.jpg"
@@ -23,7 +23,7 @@
     "title": "Build & Launch Without Problems",
     "subtitle": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
     "images": [
-      "../../../images/service_9.jpg",
+      "/service/service_3.jpg",
       "../../../images/service_10.jpg",
       "../../../images/service_11.jpg",
       "../../../images/service_12.jpg"
@@ -33,7 +33,7 @@
     "title": "Build & Launch Without Problems",
     "subtitle": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
     "images": [
-      "../../../images/service_13.jpg",
+      "/service/service_4.jpg",
       "../../../images/service_6.jpg",
       "../../../images/service_10.jpg",
       "../../../images/service_13.jpg"
