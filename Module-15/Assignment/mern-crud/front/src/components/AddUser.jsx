@@ -1,6 +1,7 @@
 import {FormControl, FormGroup, InputLabel, Typography, styled, Input, Button} from "@mui/material";
 import {useState} from "react";
 import {addUser} from "../service/api";
+import {useNavigate} from "react-router-dom";
 
 
 const StyledFormGroup  = styled(FormGroup)({
@@ -27,10 +28,14 @@ const AddUser = () => {
         }))
     }
 
+    const navigate = useNavigate();
     const addStudentDetailes = async () =>{
         // Call api to inset data
       await  addUser(objData); // addUser is a async function
+        alert("Studnet add successfully")
+        navigate("/");
     }
+
     return (
         <div>
             <StyledFormGroup >
