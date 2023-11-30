@@ -51,7 +51,7 @@ const EditUser = () => {
     const editStudentDetailes = async () =>{
         // Call api to inset data
         await editUser(objData, id); // addUser is a async function
-        alert("Student add successfully")
+        alert("Student Info Edit successfully")
         navigate("/");
     }
 

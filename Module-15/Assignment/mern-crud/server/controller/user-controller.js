@@ -33,10 +33,24 @@ export const getUser = async (req, res) =>{
     }
 }
 
-export const editUser = async () =>{
+export const editUser = async (req, res) =>{
+    let user = req.body;
+    const editUser = new User(user);
     try{
-
+        await User.updateOne({id: req.params.id}, editUser);
+        res.status(201).json(editUser);
     }catch (e){
+        console.log("Error while updating user info ", e);
+        res.status(409).json({message: e.message});
+    }
+}
 
+export const deleteUserInfo = async (req, res) =>{
+    try{
+        await User.deleteOne({id: req.params.id});
+        res.status(201).json({message: "User deleted successfully"});
+    }catch (e){
+        console.log("Error While deleting users ", e);
+        res.status(409).json({message: e.message});
     }
 }
