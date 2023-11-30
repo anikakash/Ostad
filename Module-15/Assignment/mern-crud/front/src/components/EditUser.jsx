@@ -1,7 +1,7 @@
 import {FormControl, FormGroup, InputLabel, Typography, styled, Input, Button} from "@mui/material";
-import {useState} from "react";
-import {addUser} from "../service/api";
-import {useNavigate} from "react-router-dom";
+import {useState, useEffect} from "react";
+import {editUser, getuser} from "../service/api";
+import {useNavigate, useParams} from "react-router-dom";
 
 
 const StyledFormGroup  = styled(FormGroup)({
@@ -19,74 +19,92 @@ const  StyledFormControlButton = styled(FormControl)({
     marginTop: "20px",
     marginBottom: "10px"
 })
-const AddUser = () => {
+const EditUser = () => {
 
     let [objData, setObj] = useState({fName: "", lName:"", gender:"", dOB:"", nationality: "", address:"", email:"",phone:""});
+
+
+    const navigate = useNavigate();
+
+    const {id} = useParams();
+
+    useEffect(() => {
+        loadUserDetails();
+    }, []);
+    const loadUserDetails =  async () =>{
+       try{
+           const response = await getuser(id);
+           console.log(`data come from backedn `, response);
+           setObj(response.data);
+       }catch (e){
+           console.log("Erro loading user detailes ", e);
+       }
+    }
+
+
     const onValueChange = (property, value) =>{
         setObj(preObj =>({
             ...preObj,
             [property] : value
         }))
     }
-
-    const navigate = useNavigate();
-    const addStudentDetailes = async () =>{
+    const editStudentDetailes = async () =>{
         // Call api to inset data
-      await  addUser(objData); // addUser is a async function
-        alert("Studnet add successfully")
+        await editUser(objData, id); // addUser is a async function
+        alert("Student add successfully")
         navigate("/");
     }
 
     return (
         <div>
             <StyledFormGroup >
-                <Typography variant="h3">Add Students</Typography>
+                <Typography variant="h3">Edit Students</Typography>
                 <StyledFormControl>
                     <InputLabel>First Name</InputLabel>
-                    <Input onChange={(e) => {onValueChange("fName",e.target.value)}} value={objData.fName}/>
+                    <Input onChange={(e) => {onValueChange("fName",e.target.value)}} value={objData.fName ||""}/>
                 </StyledFormControl>
 
                 <StyledFormControl>
                     <InputLabel>Last Name</InputLabel>
-                    <Input onChange={(e) => {onValueChange("lName",e.target.value)}} value={objData.lName}/>
+                    <Input onChange={(e) => {onValueChange("lName",e.target.value)}} value={objData.lName || ""}/>
                 </StyledFormControl>
 
                 <StyledFormControl>
                     <InputLabel>Gender</InputLabel>
-                    <Input onChange={(e) => {onValueChange("gender",e.target.value)}} value={objData.gender}/>
+                    <Input onChange={(e) => {onValueChange("gender",e.target.value)}} value={objData.gender || ""}/>
                 </StyledFormControl>
 
                 <StyledFormControl>
                     <InputLabel>Date Of Birth</InputLabel>
-                    <Input onChange={(e) => {onValueChange("dOB",e.target.value)}} value={objData.dOB}/>
+                    <Input onChange={(e) => {onValueChange("dOB",e.target.value)}} value={objData.dOB || ""}/>
                 </StyledFormControl>
 
                 <StyledFormControl>
                     <InputLabel>Nationality</InputLabel>
-                    <Input onChange={(e) => {onValueChange("nationality",e.target.value)}} value={objData.nationality}/>
+                    <Input onChange={(e) => {onValueChange("nationality",e.target.value)}} value={objData.nationality || ""}/>
                 </StyledFormControl>
 
                 <StyledFormControl>
                     <InputLabel>Address</InputLabel>
-                    <Input onChange={(e) => {onValueChange("address",e.target.value)}} value={objData.address}/>
+                    <Input onChange={(e) => {onValueChange("address",e.target.value)}} value={objData.address || ""}/>
                 </StyledFormControl>
 
                 <StyledFormControl>
                     <InputLabel>Email</InputLabel>
-                    <Input onChange={(e) => {onValueChange("email",e.target.value)}} value={objData.email}/>
+                    <Input onChange={(e) => {onValueChange("email",e.target.value)}} value={objData.email || ""}/>
                 </StyledFormControl>
 
                 <StyledFormControl>
                     <InputLabel>Phone</InputLabel>
-                    <Input onChange={(e) => {onValueChange("phone",e.target.value)}} value={objData.phone}/>
+                    <Input onChange={(e) => {onValueChange("phone",e.target.value)}} value={objData.phone || ""}/>
                 </StyledFormControl>
 
                 <StyledFormControlButton>
-                    <Button variant="contained" onClick={()=>addStudentDetailes()}>Add Student</Button>
+                    <Button variant="contained" onClick={()=>editStudentDetailes()}>Edit Student</Button>
                 </StyledFormControlButton>
             </StyledFormGroup >
         </div>
     );
 };
 
-export default AddUser;
+export default EditUser;

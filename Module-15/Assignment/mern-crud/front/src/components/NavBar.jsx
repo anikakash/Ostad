@@ -24,6 +24,7 @@ const StyledLink = styled(NavLink)({
     cursor: "pointer",
     color: "inherit",
     textDecoration: "none",
+    fontSize: "20px"
 });
 
 const NavBar = () => {

@@ -22,3 +22,21 @@ export const getUsers = async (req, res) =>{
         res.status(400).json({message : error.message});
     }
 }
+
+export const getUser = async (req, res) =>{
+    let id = req.params.id;
+    try{
+        const user = await User.find({id: req.params.id});
+        res.status(200).json(user[0]);
+    }catch (e){
+        res.status(400).json({message : e.message});
+    }
+}
+
+export const editUser = async () =>{
+    try{
+
+    }catch (e){
+
+    }
+}
