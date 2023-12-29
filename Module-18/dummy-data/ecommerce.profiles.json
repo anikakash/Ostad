@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "65785b2294966a135b2f09e1"
+  },
+  "userID": {
+    "$oid": "64f865337f12bc50f718d79a"
+  },
+  "cus_add": "CMH",
+  "cus_city": "Cumilla",
+  "cus_country": "Bangladesh",
+  "cus_fax": "212-2522",
+  "cus_name": "Emon Arefin",
+  "cus_phone": "01632111704",
+  "cus_postcode": "1210",
+  "cus_state": "Dhaka",
+  "ship_add": "43/2",
+  "ship_city": "New York",
+  "ship_country": "USA",
+  "ship_name": "Evergreen",
+  "ship_phone": "156985255",
+  "ship_postcode": "4210",
+  "ship_state": "Bangladesh",
+  "createdAt": {
+    "$date": "2023-12-12T13:07:46.862Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-12T13:07:46.862Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65785b8794966a135b2f09e5"
+  },
+  "userID": {
+    "$oid": "64f865337f12bc50f718d79a"
+  },
+  "cus_add": "CMH",
+  "cus_city": "Rajbari",
+  "cus_country": "Bangladesh",
+  "cus_fax": "212-2522",
+  "cus_name": "Raizeen Arefin",
+  "cus_phone": "01632111704",
+  "cus_postcode": "1210",
+  "cus_state": "Dhaka",
+  "ship_add": "43/2",
+  "ship_city": "New York",
+  "ship_country": "USA",
+  "ship_name": "Evergreen",
+  "ship_phone": "156985255",
+  "ship_postcode": "4210",
+  "ship_state": "Bangladesh",
+  "createdAt": {
+    "$date": "2023-12-12T13:09:27.992Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-12T13:09:27.992Z"
+  }
+}]

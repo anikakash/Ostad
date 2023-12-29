@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "6578656d236dc9886475a218"
+  },
+  "productID": {
+    "$oid": "6578656d236dc9886475a217"
+  },
+  "userID": {
+    "$oid": "64f865337f12bc50f718d79a"
+  },
+  "des": "Emon Arefin is a nice guy, thats why I gave him 5 star",
+  "rating": "5",
+  "createdAt": {
+    "$date": "2023-12-12T13:51:41.105Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-12T13:51:41.105Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657865a3236dc9886475a21b"
+  },
+  "productID": {
+    "$oid": "657865a3236dc9886475a21a"
+  },
+  "userID": {
+    "$oid": "64f865337f12bc50f718d79a"
+  },
+  "des": "Shahrukh Khan is a nice guy, thats why I gave him 5 star",
+  "rating": "4",
+  "createdAt": {
+    "$date": "2023-12-12T13:52:35.800Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-12T13:52:35.800Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657865b9236dc9886475a21e"
+  },
+  "productID": {
+    "$oid": "657865b9236dc9886475a21d"
+  },
+  "userID": {
+    "$oid": "64f865337f12bc50f718d79a"
+  },
+  "des": "This product is worse than I think",
+  "rating": "1",
+  "createdAt": {
+    "$date": "2023-12-12T13:52:57.234Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-12T13:52:57.234Z"
+  }
+}]
