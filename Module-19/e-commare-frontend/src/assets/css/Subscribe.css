@@ -1,0 +1,31 @@
+/* Subscribe.css */
+.subscribe-container {
+    background-color: #f8f9fa; /* Add your desired background color */
+    padding: 50px 0;
+  }
+  
+  .subscribe-heading {
+    text-align: center;
+  }
+  
+  .subscribe-heading h1 {
+    color: #007bff; /* Add your desired text color */
+  }
+  
+  .subscribe-heading h2 {
+    color: #343a40; /* Add your desired text color */
+  }
+  
+  Form {
+    margin-top: 20px;
+  }
+  
+  Form.Control {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  Button {
+    width: 100%;
+  }
+  

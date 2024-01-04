@@ -1,0 +1,59 @@
+main {
+    background-color: #d1d1d1;
+    margin-top: -100px;
+    padding: 200px 0 55px 0;
+}
+
+.hero-text {
+    padding-right: 100px
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px
+
+}
+
+.hero-img {
+    width: 100%;
+}
+
+
+.hero-text button {
+    background-color: #2094b1;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-top: 40px;
+    transition: all 400ms;
+}
+
+.hero-text button:hover {
+    box-shadow: none
+}
+
+.partnerSection {
+    background-color: #f8f9ff;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    margin-top: 75px
+}
+
+.partner-logo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.partner-logo img {
+    padding: 0 45px;
+}

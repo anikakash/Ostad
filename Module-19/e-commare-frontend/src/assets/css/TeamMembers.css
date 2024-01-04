@@ -1,0 +1,31 @@
+/* TeamMembers.css */
+.team-members-container {
+    background-color: #f8f9fa; /* Add your desired background color */
+    padding: 50px 0;
+  }
+  
+  .team-members-heading {
+    text-align: center;
+  }
+  
+  .team-members-heading h1 {
+    color: #007bff; /* Add your desired text color */
+  }
+  
+  .team-members-heading h2 {
+    color: #343a40; /* Add your desired text color */
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #007bff; /* Add your desired social media icon color */
+  }
+  
+  /* Add more styles as needed */
+  

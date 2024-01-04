@@ -1,0 +1,31 @@
+[
+    {
+        "image": "https://i.ibb.co/2swT8TM/member-1.png" ,
+        "name": "Devon Lane",
+        "facebook": "#",
+        "twitter": "#",
+        "linked" : "#",
+        "instagram": "#"
+
+    },
+    {
+        "image": "https://i.ibb.co/3sRpt6K/member-2.png" ,
+        "name": "Danny Bailey",
+        "facebook": "#",
+        "twitter": "#",
+        "linked" : "#",
+        "instagram": "#"
+
+    },
+    {
+        "image": "https://i.ibb.co/9872CNd/member-3.png" ,
+        "name": "Alex Lov",
+        "facebook": "#",
+        "twitter": "#",
+        "linked" : "#",
+        "instagram": "#"
+
+    }
+]
+
+

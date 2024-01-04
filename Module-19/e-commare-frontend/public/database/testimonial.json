@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "name": "Alice Bradley",
+        "designation": "Backend Developer",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+        "img": "https://i.ibb.co/1bjCCMd/client-1.png"
+    },
+    {
+        "id": "2",
+        "name": "Alice Bradley",
+        "designation": "Backend Developer",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+        "img": "https://i.ibb.co/n7324Ng/client-2.png"
+    },
+    {
+        "id": "3",
+        "name": "Alice Bradley",
+        "designation": "Backend Developer",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+        "img": "https://i.ibb.co/c8b6sGY/client-3.png"
+    },
+    {
+        "id": "4",
+        "name": "Alice Bradley",
+        "designation": "Backend Developer",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+        "img": "https://i.ibb.co/swZC12d/client-4.png"
+    },
+    {
+        "id": "5",
+        "name": "Alice Bradley",
+        "designation": "Backend Developer",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+        "img": "https://i.ibb.co/mBrgNs6/client-5.png"
+    },
+    {
+        "id": "6",
+        "name": "Alice Bradley",
+        "designation": "Backend Developer",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+        "img": "https://i.ibb.co/g3y1SC5/client-6.png"
+    }
+]
+
+
+
+
+
+
+

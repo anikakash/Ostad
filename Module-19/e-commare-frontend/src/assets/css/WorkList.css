@@ -1,0 +1,51 @@
+/* WorkList.css */
+
+.work-item {
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow content (if any) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    transition: transform 0.3s ease-in-out; /* Add smooth transition on hover */
+  
+    /* Add some margin and padding for spacing */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .work-item:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .work-item-inner {
+    text-align: center; /* Center content */
+  }
+  
+  .work-icon {
+    max-width: 100%; /* Ensure the image doesn't exceed the container */
+    border-radius: 50%; /* Create a circular border for the image */
+    margin-bottom: 15px; /* Add some spacing between the image and text */
+  }
+  
+  /* Style the title */
+  .work-item h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the description */
+  .work-item p {
+    font-size: 1rem;
+    color: #666; /* Set the color of the description */
+    margin-bottom: 15px;
+  }
+  
+  /* Style the button */
+  .work-item button {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+  }
+  
+  .work-item button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  

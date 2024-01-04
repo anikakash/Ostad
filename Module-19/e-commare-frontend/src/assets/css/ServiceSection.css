@@ -1,0 +1,26 @@
+/* ServiceSection.css */
+.service-section-container {
+    background-color: #f8f9fa; /* Add your desired background color */
+    padding: 50px 0;
+  }
+  
+  .service-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #dee2e6; /* Add your desired border color */
+    border-radius: 10px;
+    background-color: #fff; /* Add your desired card background color */
+  }
+  
+  .service-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .service-card h3 {
+    margin-top: 20px;
+    color: #007bff; /* Add your desired text color */
+  }
+  
+  /* Add more styles as needed */
+  

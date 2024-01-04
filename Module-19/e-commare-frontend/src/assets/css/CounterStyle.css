@@ -1,0 +1,40 @@
+/* CounterSection.css */
+
+.counter-section {
+    background-color: #f8f9fa; /* Set background color */
+  }
+  
+  .counter-item {
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Add padding */
+    transition: transform 0.3s ease-in-out; /* Add smooth transition on hover */
+  }
+  
+  .counter-item:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .counter-item i {
+    font-size: 3rem; /* Adjust icon size */
+    margin-bottom: 10px; /* Add some spacing */
+  }
+  
+  .counter-item h3 {
+    font-size: 2rem; /* Adjust number size */
+    margin-bottom: 5px; /* Add some spacing */
+  }
+  
+  .counter-item p {
+    font-size: 1rem; /* Adjust text size */
+    color: #666; /* Set the color of the text */
+  }
+  
+
+  .icon-style {
+    background: #d7f5dc;
+    padding: 20px;
+    width: 100px;
+    margin:  0 auto;
+    border-radius: 10px;
+  }

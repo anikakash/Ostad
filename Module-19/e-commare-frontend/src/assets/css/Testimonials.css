@@ -1,0 +1,28 @@
+/* Testimonials.css */
+.testimonials-container {
+    background-color: #ffffff; /* Add your desired background color */
+    padding: 50px 0;
+  }
+  
+  .testimonial-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #dee2e6; /* Add your desired border color */
+    border-radius: 10px;
+    background-color: #fff; /* Add your desired card background color */
+  }
+  
+  .testimonial-img img {
+    width: 80px; /* Add your desired image width */
+  }
+  
+  .testimonial-content {
+    margin-top: 20px;
+  }
+  
+  .job-title {
+    color: #007bff; /* Add your desired text color */
+  }
+  
+  /* Add more styles as needed */
+  
