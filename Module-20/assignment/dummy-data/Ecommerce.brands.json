@@ -1,0 +1,58 @@
+[
+  {
+    "_id": {
+      "$oid": "64f8751a502e1b80556da142"
+    },
+    "BrandName": "Apple",
+    "BrandImg": "https://images.unsplash.com/photo-1680266985445-84ee90d29ba8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aSUyMHBob25lJTIwMTQlMjBwcm8lMjBtYXh8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "_id": {
+      "$oid": "64f8751a502e1b80556da143"
+    },
+    "BrandName": "Rolex",
+    "BrandImg": "https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cm9sZXglMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "_id": {
+      "$oid": "64f8751a502e1b80556da144"
+    },
+    "BrandName": "Raymond",
+    "BrandImg": "https://images.unsplash.com/photo-1574120153654-453fb26e6bd4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmF5bW9uZCUyMGRyZXNzfGVufDB8fDB8fHww"
+  },
+  {
+    "_id": {
+      "$oid": "64f8751a502e1b80556da145"
+    },
+    "BrandName": "Nike",
+    "BrandImg": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "_id": {
+      "$oid": "64f8751a502e1b80556da146"
+    },
+    "BrandName": "Samsung",
+    "BrandImg": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "_id": {
+      "$oid": "64f8751a502e1b80556da147"
+    },
+    "BrandName": "LG",
+    "BrandImg": "https://wallpapers.com/images/high/tv-set-japanese-style-441243o5nvq9kvqx.webp"
+  },
+  {
+    "_id": {
+      "$oid": "64f8751a502e1b80556da148"
+    },
+    "BrandName": "Bata",
+    "BrandImg": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1412&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "_id": {
+      "$oid": "64f8751a502e1b80556da149"
+    },
+    "BrandName": "Ray-Ban",
+    "BrandImg": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]
